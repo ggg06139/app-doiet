@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "doiet",
+    "slug": "doiet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,13 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.steady.hsh.myapp"
+      "bundleIdentifier": "com.steady.hsh.doiet"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.steady.hsh.doiet"
     },
     "web": {
       "bundler": "metro",
@@ -38,7 +39,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "65c84627-56dc-4a01-9827-f0dd0abc75e8"
+        "projectId": "5aa6a179-73c2-4fee-a308-bdab2d0dd62a"
       }
     }
   }
